@@ -1,0 +1,9 @@
+{
+"token": "token bu kısıma",
+"prefix": "prefix bu kısıma",
+"botid": "bot id bu kısıma",
+"sunucuismi": "sunucu ismi bu kısıma",
+"giriscikiskanalid": "giriş çıkış mesajının gönderilecek kanal id bu kısıma",
+"otomatikrolid": "oto rol belirliyeceğiniz rolün idsi bu kısıma",
+"otorolkanalid": "oto rol mesajının gönderilecek kanal id bu kısıma"
+} 
