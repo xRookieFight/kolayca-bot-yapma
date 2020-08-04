@@ -28,6 +28,13 @@ client.on('guildMemberAdd', member => {
   .setDescription(`📤 ${member} adlı üye sunucuya katıldı! 📤`)
 client.channels.get(config.giriscikiskanalid).send(by_xRookieFight)
 })
+client.on('guildMemberRemove', member => {
+  const cikiskanal = new Discord.RichEmbed()
+  .setTitle(config.sunucuismi)
+  .setAuthor('Bir üye ayrıldı!')
+  .setDescription(`📤 ${member} adlı üye sunucudan ayrıldı! 📤`)
+client.channels.get(config.giriscikiskanalid).send(cikiskanal)
+})
 
 
 client.login(config.token)
