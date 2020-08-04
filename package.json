@@ -1,10 +1,7 @@
 {
-  "//1": "describes your app and its dependencies",
-  "//2": "https://docs.npmjs.com/files/package.json",
-  "//3": "updating this file will download and update your packages",
-  "name": "hello-express",
+  "name": "kolayca-bot-yapma",
   "version": "0.0.1",
-  "description": "Glitch Discord Botu.",
+  "description": "By xRookieFight.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -104,12 +101,10 @@
     "node": "12.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/hello-express"
+    "url": "https://github.com/xRookieFight/kolayca-bot-yapma"
   },
   "license": "MIT",
   "keywords": [
-    "node",
-    "glitch",
-    "express"
+    "node"
   ]
 }
