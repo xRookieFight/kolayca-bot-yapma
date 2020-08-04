@@ -8,12 +8,15 @@ const client = new Discord.Client()
 const config = require('./config.json')
 client.on('ready', () => {
 console.log('Aktif!')
-client.user.setActivity(`Prefixim: ${config.prefix} veya ${config.botid}`)
+client.user.setActivity(`Prefixim: ${config.prefix}`)
 })
 client.on('message', msg => {
-if (msg.content === 'sa') {
+if (msg.content.toLowerCase() === 'sa') {
 msg.channel.send('Aleyküm selam hoşgeldin!')
 }
+if (msg.content === `${config.prefix}yardım`)
+ msg.channel.send('Henüz komutum yok :(')
+ msg.react('☹')
 });
 client.on('guildMemberAdd', member => {
   const Kolayca_Bot_Yapimi = new Discord.RichEmbed()
