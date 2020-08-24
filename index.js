@@ -16,7 +16,6 @@ msg.channel.send('Aleyküm selam hoşgeldin!')
 }
 if (msg.content === `${config.prefix}yardım`)
  msg.channel.send('Henüz komutum yok :(')
- msg.react('☹')
 });
 client.on('guildMemberAdd', member => {
   const Kolayca_Bot_Yapimi = new Discord.RichEmbed()
